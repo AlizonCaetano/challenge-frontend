@@ -1,6 +1,12 @@
 
 :root {
   --border-radius: 12px;
+  --logo-color: #5D5D6D;
+  --text-dark: #737380;
+  --bg-secondary: #F3F5F6;
+  --delete-color:  #DE3838;
+
+  font-size: 62.5%;
 }
 
 * {
@@ -13,4 +19,5 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-size: 1.6rem;
 }

@@ -2,7 +2,8 @@
 
 Este desafio foi realizado como desafio de Front-end na [Rocketseat´s](https://www.rocketseat.com.br/) open source [Frontend Challenge](https://github.com/Rocketseat/frontend-challenge).
 
-![Prototype](./.github/prototype.png)
+![image](https://github.com/AlizonCaetano/challenge-frontend/assets/78568924/8851c15b-2a3b-4607-85b6-1ba598e284dd)
+
 
 # 🧠 Sobre
 

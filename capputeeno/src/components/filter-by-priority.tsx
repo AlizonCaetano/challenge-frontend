@@ -35,6 +35,7 @@ const FilterContainer = styled.div`
 const PriorityFilter = styled.ul`
     cursor: pointer;
     position: absolute;
+    z-index: 1;
     top: 100%;
     left: 0;
 

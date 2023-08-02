@@ -22,7 +22,7 @@ O objetivo é reproduzir o desafio conforme a necessidade técnica exigida para 
 
 1. Clonar este repositório
 ```bash
-git clone [https://github.com/Fernanda-Kipper/challenge-frontend.git](https://github.com/AlizonCaetano/challenge-frontend.git
+git clone https://github.com/AlizonCaetano/challenge-frontend.git
 ```
 
 2. Acesse a página principal

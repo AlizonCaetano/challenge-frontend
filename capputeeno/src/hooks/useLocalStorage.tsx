@@ -6,10 +6,8 @@ export function useLocalStorage<T>(item: string, initialValue: T){
     useEffect(() => {
         if (typeof window === 'undefined') return;
         let value = localStorage.getItem(item)
-        if(value){
-
-            setValue(JSON.parse(value))
-        }
+        if(value) setValue(JSON.parse(value))
+        
     }, [window])
 
     const updateLocalStorage = (newValue: T) => {

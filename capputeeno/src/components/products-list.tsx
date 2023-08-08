@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useProducts } from "@/hooks/useProducts"
 import { ProductCard } from "./product-card"
 import { styled } from "styled-components"
@@ -14,7 +14,6 @@ const ListContainer = styled.div`
 
 export function ProductList(){
     const { data }= useProducts()
-    console.log(data)
     return(
        <ListContainer>
         {data?.map(product => <ProductCard

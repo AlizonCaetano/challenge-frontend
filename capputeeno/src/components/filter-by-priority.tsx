@@ -37,7 +37,7 @@ const PriorityFilter = styled.ul`
     position: absolute;
     z-index: 1;
     top: 100%;
-    left: 0;
+    right: .8rem;
 
     text-align: start;
     
@@ -56,6 +56,8 @@ const PriorityFilter = styled.ul`
     li + li {
         margin-top: .6rem;
     }
+
+
 `
 
 export function FilterByPriority(props: FilterByPriorityProps) {

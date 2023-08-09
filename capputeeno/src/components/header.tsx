@@ -34,6 +34,7 @@ const Logo = styled.a`
     font-weight: 400;
     font-size: 2rem;
     line-height: 150%;
+    text-decoration: none;
 
     @media(min-width: ${props => props.theme.tabletBreakpoint}) {
         font-size: 2.4rem;
@@ -48,7 +49,7 @@ export function Header(){
     
     return(
         <TagHeader>
-            <Logo className={sairaStencil.className}>
+            <Logo className={sairaStencil.className} href="/">
                 Capputeeno
             </Logo>
             <div>
